@@ -1,5 +1,9 @@
 # saltme
 
+include:
+  - .groups.demo
+
+
 'Demo user configured':
   user.present:
     - name: demo1
