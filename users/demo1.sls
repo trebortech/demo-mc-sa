@@ -12,7 +12,7 @@
       - group: 'Demo Group'
   ssh_auth.present:
     - user: demo1
-    - source: salt://users/demo1.pub
+    - source: salt://{{ slspath }}/demo1.pub
     - config: '.ssh/authorized_keys'
     - require:
       - user: 'demo1'
