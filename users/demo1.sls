@@ -1,7 +1,8 @@
 # saltme
 
-include:
-  - {{ sls }}.groups.demo
+'Demo Group':
+  group.present:
+    - name: demogroup
 
 'Demo user configured':
   user.present:
