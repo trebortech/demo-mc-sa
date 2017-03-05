@@ -1,10 +1,11 @@
+# saltme
 
 'Demo user configured':
   user.present:
     - name: demo1
     - fullname: 'demo user'
     - shell: '/bin/bash'
-    - password: ''
+    - password: '$1$axmfUNzH$iCLhGoQu2uJgUArVB6exW/'
     - groups:
       - demogroup
     - require:
