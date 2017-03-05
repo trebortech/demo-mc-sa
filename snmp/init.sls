@@ -7,7 +7,7 @@
 "SNMPD configuration file":
   file.managed:
     - name: /etc/snmp/snmpd.conf
-    - source: salt://snmp/snmpd.conf
+    - source: salt://{{ slspath }}/snmpd.conf
     - user: root
     - group: root
     - mode: 400
