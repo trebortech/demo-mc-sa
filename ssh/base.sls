@@ -16,7 +16,7 @@
 
 "Update UsePAM":
   file.replace:
-    - name: '/tc/ssh/sshd_config'
+    - name: '/etc/ssh/sshd_config'
     - pattern: 'UsePAM no'
     - repl: 'UsePAM yes'
     - backup: False
