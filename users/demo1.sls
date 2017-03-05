@@ -1,7 +1,7 @@
 # saltme
 
 include:
-  - .groups.demo
+  - groups.demo
 
 
 'Demo user configured':
