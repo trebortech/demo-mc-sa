@@ -1,8 +1,7 @@
 # saltme
 
 include:
-  - groups.demo
-
+  - {{ saltenv }}.groups.demo
 
 'Demo user configured':
   user.present:
