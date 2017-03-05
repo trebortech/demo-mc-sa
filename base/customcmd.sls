@@ -6,5 +6,5 @@
 
 'Create a file if some other file does not exist':
   cmd.run:
-    - name: 'touch /tmp/demo-test'
+    - name: 'touch /tmp/demo-test3'
     - creates: '/tmp/demo-test2'
