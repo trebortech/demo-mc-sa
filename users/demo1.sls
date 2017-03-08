@@ -9,7 +9,7 @@
     - name: demo1
     - fullname: 'demo user'
     - shell: '/bin/bash'
-    - password: '$1$axmfUNzH$iCLhGoQu2uJgUArVB6exW/'
+    - password: '{{ pillar['password'] }}'
     - groups:
       - demogroup
     - require:
